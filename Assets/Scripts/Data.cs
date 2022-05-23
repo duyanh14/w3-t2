@@ -47,6 +47,6 @@ public class AllData
 
     public float Sound { get; set; } = 100;
     public float Music { get; set; } = 80;
-    public int Graphic { get; set; } = 1;
-    public int Language { get; set; } = 1;
+    public int Graphic { get; set; } = 0;
+    public int Language { get; set; } = 0;
 }
