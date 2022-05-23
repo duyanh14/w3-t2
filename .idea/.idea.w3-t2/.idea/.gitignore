@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/projectSettingsUpdater.xml
+/contentModel.xml
+/.idea.w3-t2.iml
+/modules.xml
+# Datasource local storage ignored files
+/../../../../../../:\Unity3DVN\w3-t2\.idea\.idea.w3-t2\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/

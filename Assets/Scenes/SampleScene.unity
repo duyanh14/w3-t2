@@ -1554,6 +1554,7 @@ GameObject:
   m_Component:
   - component: {fileID: 689238390}
   - component: {fileID: 689238391}
+  - component: {fileID: 689238392}
   m_Layer: 5
   m_Name: Slider
   m_TagString: Untagged
@@ -1634,7 +1635,32 @@ MonoBehaviour:
   m_Value: 0.398
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 689238392}
+        m_TargetAssemblyTypeName: Music, Assembly-CSharp
+        m_MethodName: OnChange
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &689238392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 689238389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95c2cbead9bc81348861b1648d1cd912, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Slider: {fileID: 689238391}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -2119,6 +2145,7 @@ GameObject:
   m_Component:
   - component: {fileID: 802635249}
   - component: {fileID: 802635250}
+  - component: {fileID: 802635251}
   m_Layer: 5
   m_Name: Slider
   m_TagString: Untagged
@@ -2194,12 +2221,37 @@ MonoBehaviour:
   m_HandleRect: {fileID: 2123038042}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
+  m_MaxValue: 100
   m_WholeNumbers: 0
   m_Value: 0.398
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 802635251}
+        m_TargetAssemblyTypeName: Sound, Assembly-CSharp
+        m_MethodName: OnChange
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &802635251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 802635248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e682077282b88dc408fb608b40e3edd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Slider: {fileID: 802635250}
 --- !u!1 &885274095
 GameObject:
   m_ObjectHideFlags: 0
